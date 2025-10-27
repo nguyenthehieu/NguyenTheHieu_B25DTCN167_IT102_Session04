@@ -40,6 +40,7 @@ int main(){
 			case 2:
 			printf("Thang %d co 28 hoac 29 ngay",a);
 			break;
+			default: printf("Thang ko hop le");
 	}
 	return 0;
 
