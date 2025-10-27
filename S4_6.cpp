@@ -6,6 +6,7 @@ int main (){
 	printf("Chi so moi: ");
 	scanf("%f",&b);
 	sodien=b-a;
+	printf("So dien tieu thu: %.2f",sodien);
 	if(sodien>=0 && sodien<50){
 		float giadien=sodien*10000;
 		printf("Gia dien la: %.2f", giadien);
